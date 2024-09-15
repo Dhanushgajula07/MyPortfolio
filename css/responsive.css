@@ -1,0 +1,16 @@
+/* Basic responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        padding: 1rem;
+        background-size: contain;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form label, form input, form textarea, form button {
+        margin-bottom: 1rem;
+    }
+}
